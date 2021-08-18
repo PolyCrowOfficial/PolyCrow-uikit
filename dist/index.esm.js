@@ -2819,7 +2819,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { pr
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), {  primaryDark: "#d0d0d0",secondary: "#575154", background: "#051519",
 backgroundDisabled: "#3c3742", contrast: "#575154", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547",
-text: "#e1e2e2", textDisabled: "#666171", textSubtle: "#a7a7a7", borderColor: "#524B63", card: "#070707", gradients: {
+text: "#e1e2e2", textDisabled: "#666171", textSubtle: "#a7a7a7", borderColor: "#524B63", card: "rgba(7, 7, 7, 0.5)", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
