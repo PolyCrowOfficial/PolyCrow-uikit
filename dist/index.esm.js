@@ -2230,9 +2230,24 @@ var socials = [
         href: "https://twitter.com/PolyCrowDeFi",
     },
     {
+        label: "GitHub",
+        icon: "GithubIcon",
+        href: "https://github.com/PolyCrowOfficial?tab=repositories",
+    },
+    {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: "https://t.me/",
+        items: [
+            {
+                label: "English",
+                href: "https://t.me/PolyCrowOfficial",
+            },
+            {
+                label: "Announcements",
+                href: "https://t.me/PolyCrowAnnouncements",
+            },
+
+        ],
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2819,7 +2834,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { pr
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), {  primaryDark: "#d0d0d0",secondary: "#575154", background: "#051519",
 backgroundDisabled: "#3c3742", contrast: "#575154", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547",
-text: "#e1e2e2", textDisabled: "#666171", textSubtle: "#a7a7a7", borderColor: "#524B63", card: "rgba(7, 7, 7, 0.9)", gradients: {
+text: "#e1e2e2", textDisabled: "#666171", textSubtle: "#a7a7a7", borderColor: "#524B63", card: "rgba(7, 7, 7, 0.5)", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
