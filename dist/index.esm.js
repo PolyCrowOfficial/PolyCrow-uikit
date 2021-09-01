@@ -2415,6 +2415,8 @@ var Panel = function (props) {
   var isPushed = props.isPushed, showMenu = props.showMenu;
   return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
       React.createElement(PanelBody, __assign({}, props)),
+      React.createElement("a", { target: "_blank", rel: "noreferrer", href: "https://jagosafer.io/polycrow" },
+      React.createElement("img", {src: "/images/egg/greenflag.png"})),
     React.createElement("a", { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/polycrow/" },
     React.createElement("img", { src: "/images/egg/rugdoc.png" })),
       React.createElement(PanelFooter, __assign({}, props))));
